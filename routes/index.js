@@ -5,7 +5,7 @@ const authController = require('../controllers/user')
 /* GET home page. */
 router.get('/', (req, res, next) => {
   res.status(200).json({
-    message: "Welcome to our API"
+    message: "Welcome to Enyata Academy API"
   })
 });
 
